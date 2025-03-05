@@ -41,6 +41,7 @@ Each algorithm is implemented in a separate directory. To explore an algorithm:
     <td><img src="Image Enhancement/Output/res01.jpg" width="370" height="250"></td>
   </tr>
 </table>
+
 ### 2. Color Processing and Blurring
 - Changes the color of a flower in the image using color transformations.
 <table>
