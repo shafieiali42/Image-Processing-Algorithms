@@ -117,7 +117,6 @@ Each algorithm is implemented in a separate directory. To explore an algorithm:
 ### 10. Image Morphing
 - Morphs one image into another through feature interpolation.
 
-  **Morphing Video:**  
   ![Morphing Video](/Image%20Morphing/Output/morph.gif)
 
 ### 11. Bird Segmentation in Images  
