@@ -3,15 +3,15 @@
 This repository contains implementations of various image processing algorithms, covering techniques for filtering, segmentation, blending, and more. Each algorithm has its own directory with corresponding input materials and output results.
 
 ## Table of Contents
-1. [Active Contour](#1-active-contour)
+1. [Image Enhancement](#1-image-enhancement)
 2. [Color Processing and Blurring](#2-color-processing-and-blurring)
-3. [Convolution](#3-convolution)
+3. [Convolution Implementation](#3-convolution-implementation)
 4. [Histogram Specification](#4-histogram-specification)
 5. [Homography and Image Warping](#5-homography-and-image-warping)
 6. [Hough Transform](#6-hough-transform)
 7. [Hybrid Images](#7-hybrid-images)
 8. [Image Completion and Hole Filling](#8-image-completion-and-hole-filling)
-9. [Image Enhancement](#9-image-enhancement)
+9. [Active Contour](#9-active-contour)
 10. [Image Morphing](#10-image-morphing)
 11. [Bird Segmentation in Images ](#11-bird-segmentation-in-images)
 12. [Image Sharpening](#12-image-sharpening)
@@ -33,11 +33,14 @@ Each algorithm is implemented in a separate directory. To explore an algorithm:
 
 ## Algorithms
 
-### 1. Active Contour
-- Implements active contour (snakes) for image segmentation.
-
-  ![Active Contour Video](/Active%20Contours/Output/contour.gif)
-
+### 1. Image Enhancement
+- Enhances image quality using contrast adjustment.
+<table>
+  <tr>
+    <td><img src="Image Enhancement/Input/Enhance1.JPG" width="370" height="250"></td>
+    <td><img src="Image Enhancement/Output/res01.jpg" width="370" height="250"></td>
+  </tr>
+</table>
 ### 2. Color Processing and Blurring
 - Changes the color of a flower in the image using color transformations.
 <table>
@@ -48,8 +51,8 @@ Each algorithm is implemented in a separate directory. To explore an algorithm:
 </table>
 
 
-### 3. Convolution
-- 
+### 3.  Convolution Implementation
+- Implements 2D convolution using different functions and compares their runtimes.
 
 ### 4. Histogram Specification
 - Adjusts an image’s histogram to match a specified target histogram.
@@ -95,22 +98,20 @@ Each algorithm is implemented in a separate directory. To explore an algorithm:
 - Fills missing parts of an image using inpainting techniques.
 <table>
   <tr>
-    <td><img src="Image Completion and Hole Filling/Input/im04.jpg" width="170" height="230"></td>
-    <td><img src="Image Completion and Hole Filling/Output/res16.jpg" width="170" height="230"></td>
-    <td><img src="Image Completion and Hole Filling/Input/im03.jpg" width="300" height="230"></td>
-    <td><img src="Image Completion and Hole Filling/Output/res15.jpg" width="300" height="230"></td>
+    <td><img src="Image Completion and hole filling/Input/im04.jpg" width="170" height="230"></td>
+    <td><img src="Image Completion and hole filling/Output/res16.jpg" width="170" height="230"></td>
+    <td><img src="Image Completion and hole filling/Input/im03.jpg" width="300" height="230"></td>
+    <td><img src="Image Completion and hole filling/Output/res15.jpg" width="300" height="230"></td>
   </tr>
 </table>
 
 
-### 9. Image Enhancement
-- Enhances image quality using contrast adjustment.
-<table>
-  <tr>
-    <td><img src="Image Enhancement/Input/Enhance1.JPG" width="370" height="250"></td>
-    <td><img src="Image Enhancement/Output/res01.jpg" width="370" height="250"></td>
-  </tr>
-</table>
+
+
+### 9. Active Contour
+- Implements active contour (snakes) for image segmentation.
+
+  ![Active Contour Video](/Active%20Contours/Output/contour.gif)
 
 
 ### 10. Image Morphing
